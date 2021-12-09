@@ -1,0 +1,6 @@
+.pollEditLink {
+    display: none;
+}
+.pollViewLink {
+    display: inline-flex;
+}

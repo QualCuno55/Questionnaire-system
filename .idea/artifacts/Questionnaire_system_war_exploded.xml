@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Questionnaire system:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Questionnaire_system_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Questionnaire system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="h2-1.4.196" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.196" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.json:json:20210307" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.0" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Questionnaire system/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #2e6b1d;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: flex-end;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInputs {
+    display: flex;
+    column-gap: 7px;
+    justify-content: flex-end;
+}
+
+.loginInputs input {
+    height: 35px;
+    padding: 0 20px;
+    background-color: #4ea51a;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.loginInputs input.loginTextInput {
+    background-color: #b6ffa1;
+    cursor: auto;
+}
+
+.loginInputs input.loginTextInput::placeholder {
+    font-family: sans-serif;
+    color: black;
+}
+
+
+.loginText {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.smallText {
+    font-size: 12px;
+}
+
+.pollsGallery {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.pollCard {
+    background-color: #b6ffa1;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.pollLabel {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.pollText {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pollViewLink, .pollEditLink {
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    height: 35px;
+    width: 150px;
+    background-color: #4ea51a;
+    border: 1px black solid;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+.registerLink {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.registerForm {
+    width: 300px;
+    padding: 20px;
+    background-color: #2e6b1d;
+    box-sizing: border-box;
+    border: 3px black solid;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.registerForm.active {
+    display: block;
+}
+
+.registerForm input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: #4ea51a;
+    border: 1px black solid;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.registerForm input.registerTextInput {
+    background-color: #b6ffa1;
+    cursor: auto;
+}
+
+.loginInputs input.registerTextInput::placeholder {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.registerCancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    background-color: #4ea51a;
+    border: 1px black solid;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+

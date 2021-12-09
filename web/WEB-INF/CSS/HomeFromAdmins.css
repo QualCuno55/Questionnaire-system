@@ -1,0 +1,7 @@
+.pollViewLink, .pollEditLink {
+    display: inline-flex;
+}
+
+.loginInputs {
+    flex-direction: row-reverse;
+}

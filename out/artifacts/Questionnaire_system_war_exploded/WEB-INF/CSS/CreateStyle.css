@@ -1,0 +1,107 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    border: 5px #2e6b1d solid;
+    background-color: #b6ffa1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.makePool {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 0 7px;
+    height: 30px;
+}
+
+.description {
+    display: block;
+    margin: 10px;
+    resize: none;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 5px 7px;
+}
+
+.submit {
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #4ea51a;
+    color: white;
+    font-size: 20px;
+    border: 1px black solid;
+}
+
+.question {
+    margin: 30px;
+}
+
+.questionText {
+    display: block;
+    resize: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 5px 7px;
+}
+
+.counter {
+    display: none;
+}
+
+.answerType {
+    display: none;
+}
+
+.answer {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 0 7px;
+    height: 30px;
+}
+
+.service {
+    display: none;
+}
+
+.addQuestion {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addQuestion div {
+    margin: 10px;
+
+}
+
+.addQuestionButton {
+    display: block;
+    margin: 10px;
+}
